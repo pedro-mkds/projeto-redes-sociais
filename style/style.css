@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+body {
+  background: url(../image/fundo-madeira.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+}
+
+#phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+
+  height: 627px;
+  width: 311px;
+  background-image: url(../image/frame-iphone.png);
+  background-repeat: no-repeat;
+}
+
+#screen {
+  position: relative;
+  top: 80px;
+  left: 22px;
+  width: 267px;
+  height: 471px;
+}
+
+#social {
+  text-align: right;
+}
+
+#social img {
+  width: 60px;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.534);
+  box-sizing: border-box;
+  transition: 0.4s, box-shadow .6s;
+}
+
+
+#social img:hover {
+  width: 60px;
+  transform: translate(-8px, -5px);
+}
+
+#social .home:hover {
+  box-shadow: 0px 7px 9px #a3a3a3;
+}
+
+#social .youtube:hover {
+  box-shadow: 0px 7px 9px #b10202;
+}
+
+#social .github:hover {
+  box-shadow: 0px 7px 9px #50e06f;
+}
+
+#social .instagram:hover {
+  box-shadow: 0px 7px 9px #f1679c;
+}
+
+#social .twitter:hover {
+  box-shadow: 0px 7px 9px #f0f1f1;
+}
+
+#social .facebook:hover {
+  box-shadow: 0px 7px 9px #a7c2f8;
+}

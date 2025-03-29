@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+img {
+  width: 100vw;
+}
+
+a.yt {
+  display: block;
+  background-color: darkred;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a.yt:hover {
+  background-color: red;
+  text-decoration: underline;
+}
+
+a.gh {
+  display: block;
+  background-color: darkgreen;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a.gh:hover {
+  background-color: green;
+  text-decoration: underline;
+}
+
+a.is {
+  display: block;
+  background-color: darkorchid;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a.is:hover {
+  background-color: orchid;
+  text-decoration: underline;
+}
+
+a.tw {
+  display: block;
+  background-color: rgb(2, 2, 173);
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a.tw:hover {
+  background-color: rgb(30, 30, 255);
+  text-decoration: underline;
+}
+
+a.fb {
+  display: block;
+  background-color: darkblue;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a.fb:hover {
+  background-color: blue;
+  text-decoration: underline;
+}
